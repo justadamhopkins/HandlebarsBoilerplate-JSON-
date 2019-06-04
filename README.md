@@ -1,4 +1,4 @@
-# KHWS Boilerplate
+# HandlebarsBoilerplate-JSON
 
 Front-end project boilerplate to be used as a seed for all new repositories (where applicable).
 
