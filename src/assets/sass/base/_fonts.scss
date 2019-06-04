@@ -1,0 +1,45 @@
+
+// @font-face {
+// 	font-family: "EMprint-Bold";
+// 		src: url('../fonts/exxon/EMprint-Bold.eot'); /* IE9 Compat Modes */
+// 		src: url('../fonts/exxon/EMprint-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+// 			url('../fonts/exxon/EMprint-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+// 			url('../fonts/exxon/EMprint-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+// 			url('../fonts/exxon/EMprint-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+// 			url('../fonts/exxon/EMprint-Bold.svg#web') format('svg'); /* Legacy iOS */
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+
+$exfont-reg: 'EMprint-Regular', sans-serif;
+$exfont-med: 'EMprint-Semibold', sans-serif;
+$exfont-bold: 'EMprint-Bold', sans-serif;
+
+
+// @font-face {
+//     font-family: 'Samsung Sharp Sans';
+//     src: url('../fonts/samsung/SamsungSharpSans-Bold.eot');
+//     src: url('../fonts/samsung/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/samsung/SamsungSharpSans-Bold.woff2') format('woff2'),
+//         url('../fonts/samsung/SamsungSharpSans-Bold.woff') format('woff'),
+//         url('../fonts/samsung/SamsungSharpSans-Bold.ttf') format('truetype'),
+//         url('../fonts/samsung/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+$samfont-reg: 'samsungone400', sans-serif;
+$samfont-h1: 'samsungone800', sans-serif;
+$samfont-h2: 'samsungone700', sans-serif;
+$samfont-h1c: 'samsungone300', sans-serif;
+$samfont-h2c: 'samsungone200', sans-serif;
+$samfont-h3456: 'samsungone600', sans-serif;
+
+@fa-font-path: "../fonts";
+
+$base__font-size : 16px;
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
