@@ -1,0 +1,21 @@
+_id: req_c3544d2cc5434809a02f9648f47a0ff1
+type: Request
+parentId: fld_e8e370473e2b420f81c378703ac8d431
+modified: 1628496910629
+created: 1627382380908
+url: "{{content}}/generic-page"
+name: generic page
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627382380908
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

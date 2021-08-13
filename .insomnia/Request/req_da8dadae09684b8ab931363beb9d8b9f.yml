@@ -1,0 +1,31 @@
+_id: req_da8dadae09684b8ab931363beb9d8b9f
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1628505413191
+created: 1626361560308
+url: "{{ resource }}/auth/customers/activate"
+name: Activate Customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customerId": "5369453838489",
+    	"token": "e98eef3017b9c3207982e9b86fbb65a1-1626366235",
+    	"password": "{{password}}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_358524640da048409404d7d1c8e536f5
+authentication: {}
+metaSortKey: -1624956396598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

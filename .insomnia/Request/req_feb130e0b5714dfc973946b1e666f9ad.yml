@@ -1,0 +1,40 @@
+_id: req_feb130e0b5714dfc973946b1e666f9ad
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1628505591619
+created: 1626257860087
+url: "{{ resource }}/auth/customers"
+name: Update customer
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |+
+    {
+    	"email": "{{email}}",
+    	"password": "{{password}}",
+    	"firstName": "bob",
+    	"lastName": "test donkey",
+    	"phone": "+447666661743",
+    	"acceptsMarketing": true
+    }
+
+
+parameters: []
+headers:
+  - id: pair_45f842ed4d564510a841ba73e1232404
+    name: x-lick-customerAccessToken
+    value: "{{customerAccessToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_1d708be210404d11a22230bcfa7064e9
+authentication: {}
+metaSortKey: -1625927987784.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

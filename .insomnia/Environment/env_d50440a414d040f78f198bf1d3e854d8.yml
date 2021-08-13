@@ -1,0 +1,22 @@
+_id: env_d50440a414d040f78f198bf1d3e854d8
+type: Environment
+parentId: env_3ee1ba0c7bf519af78c2a4374cf6d81613d1675f
+modified: 1628718919541
+created: 1624960817588
+name: Shopify Lick Prod Store
+data:
+  shopifyHost: https://checkout.lickhome.com
+  adminAccessToken: 7fd08fe0a40d1362243ff7fc9e688c1a
+  adminApiBaseEndpoint: "{{shopifyHost}}/admin/api/2021-04"
+  storeFrontBaseEndpoint: "{{shopifyHost}}/api/2021-01"
+  storeFrontAccessToken: 92be6bf50b3cded1aeceda0bc6adb33e
+dataPropertyOrder:
+  "&":
+    - shopifyHost
+    - adminAccessToken
+    - adminApiBaseEndpoint
+    - storeFrontBaseEndpoint
+    - storeFrontAccessToken
+color: null
+isPrivate: false
+metaSortKey: 1624960817588

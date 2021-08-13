@@ -1,0 +1,20 @@
+_id: env_a7af6f3f5a324a8184305daa434ebe60
+type: Environment
+parentId: env_3ee1ba0c7bf519af78c2a4374cf6d81613d1675f
+modified: 1628505548155
+created: 1626447890816
+name: Local Rest Api
+data:
+  baseUrl: localhost:3210/
+  resource: "{{baseUrl}}{{resourcePath}}"
+  content: "{{baseUrl}}{{contentPath}}"
+  customerAccessToken: 06c2a4ad130d8e7566edc6016ccad011
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - resource
+    - content
+    - customerAccessToken
+color: null
+isPrivate: false
+metaSortKey: 1626447890816

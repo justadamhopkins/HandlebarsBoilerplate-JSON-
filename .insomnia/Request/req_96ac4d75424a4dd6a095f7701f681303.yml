@@ -1,0 +1,41 @@
+_id: req_96ac4d75424a4dd6a095f7701f681303
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1628505574115
+created: 1626709617256
+url: "{{resource}}/auth/customers/address"
+name: Create Customer Address
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"address1": "testDE",
+    	"address2": "test2",
+    	"city": "test3",
+    	"company": "test4",
+    	"country": "United Kingdom",
+    	"province": "",
+    	"zip": "test7",
+    	"firstName": "Jon",
+    	"lastName": "Doe"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fbf03c3183f2497ab21df4b153bcd466
+  - id: pair_0f7945df30374478ba7d58002952daaa
+    name: x-lick-customerAccessToken
+    value: "{{customerAccessToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1626709617256
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

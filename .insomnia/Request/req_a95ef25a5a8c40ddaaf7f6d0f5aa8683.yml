@@ -1,0 +1,25 @@
+_id: req_a95ef25a5a8c40ddaaf7f6d0f5aa8683
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1628505588535
+created: 1626098925246
+url: "{{ resource }}/auth/customers"
+name: Get customer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_45f842ed4d564510a841ba73e1232404
+    name: x-lick-customerAccessToken
+    value: "{{customerAccessToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1626098925246
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

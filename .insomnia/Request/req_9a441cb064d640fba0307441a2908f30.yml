@@ -1,0 +1,21 @@
+_id: req_9a441cb064d640fba0307441a2908f30
+type: Request
+parentId: fld_f48a70199be7499499b9188a4b3e0ae6
+modified: 1628499272219
+created: 1628499145569
+url: "{{resource}}/filters/paint"
+name: Product Filters
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628499145569
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

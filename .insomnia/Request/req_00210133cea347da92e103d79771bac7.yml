@@ -1,0 +1,21 @@
+_id: req_00210133cea347da92e103d79771bac7
+type: Request
+parentId: fld_e8e370473e2b420f81c378703ac8d431
+modified: 1628497542734
+created: 1628497099585
+url: "{{content}}/help/joel-test-help"
+name: help page
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628497099585
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

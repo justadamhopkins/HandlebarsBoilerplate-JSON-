@@ -1,0 +1,21 @@
+_id: req_b1261a92a33446e78f7e1190d8592520
+type: Request
+parentId: fld_e8e370473e2b420f81c378703ac8d431
+modified: 1628498185821
+created: 1627995592144
+url: "{{content}}/product-details/green-05"
+name: product details
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627995592144
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

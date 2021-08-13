@@ -1,0 +1,22 @@
+_id: env_3ee1ba0c7bf519af78c2a4374cf6d81613d1675f
+type: Environment
+parentId: wrk_3cb075736c7b4872ae8d7f214387e698
+modified: 1628500071268
+created: 1623675336924
+name: Base Environment
+data:
+  apiVersion: v1
+  resourcePath: "{{ _.apiVersion }}/uk/resource"
+  contentPath: "{{ _.apiVersion }}/uk/content"
+  email: adam.hopkins@lickhome.com
+  password: hannah123
+dataPropertyOrder:
+  "&":
+    - apiVersion
+    - resourcePath
+    - contentPath
+    - email
+    - password
+color: null
+isPrivate: false
+metaSortKey: 1623675336924

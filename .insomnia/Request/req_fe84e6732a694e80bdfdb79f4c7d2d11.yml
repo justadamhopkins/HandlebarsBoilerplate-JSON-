@@ -1,0 +1,29 @@
+_id: req_fe84e6732a694e80bdfdb79f4c7d2d11
+type: Request
+parentId: fld_f48a70199be7499499b9188a4b3e0ae6
+modified: 1628499576760
+created: 1628499503644
+url: "{{resource}}/newsletter"
+name: Newsletter
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "adam.hopkins@lickhome.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_815a3236f3fe45a1bfc72df13b6b4e0b
+authentication: {}
+metaSortKey: -1628499232000.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

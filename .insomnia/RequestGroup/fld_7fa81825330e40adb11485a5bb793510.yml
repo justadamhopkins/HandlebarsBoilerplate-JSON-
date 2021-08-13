@@ -1,0 +1,10 @@
+_id: fld_7fa81825330e40adb11485a5bb793510
+type: RequestGroup
+parentId: wrk_3cb075736c7b4872ae8d7f214387e698
+modified: 1624956634044
+created: 1624956634044
+name: Shopify StoreFront api
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1624956634044

@@ -1,0 +1,37 @@
+_id: req_dde9b5d27691499f90f2e21c8a2d93a5
+type: Request
+parentId: fld_7fa81825330e40adb11485a5bb793510
+modified: 1628761417259
+created: 1628699313881
+url: "{{ _.storeFrontBaseEndpoint }}/graphql"
+name: get customer
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query getCustomer($customerAccessToken: String!)
+    {\n  customer(customerAccessToken: $customerAccessToken)
+    {\n    id\n    email\n    acceptsMarketing\n    displayName\n    firstName\n    lastName\n    phone\n    lastIncompleteCheckout
+    {\n      id\n    }\n    tags\n    \n  }\n}\n","variables":{"customerAccessToken":"a27098af5a9a104807ed43bd0a4a24b2"},"operationName":"getCustomer"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d9403413b53f4fb6972d24f64266b0d0
+  - id: pair_97cd4e6821e64d3fb4f62c587516d9e5
+    name: X-Shopify-Storefront-Access-Token
+    value: "{{storeFrontAccessToken}}"
+    description: ""
+  - id: pair_86900642d1aa487d8fa178c2b630c18c
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1628699313881
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

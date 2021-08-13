@@ -1,0 +1,21 @@
+_id: req_6d911452707543858be719a037890bfb
+type: Request
+parentId: fld_e8e370473e2b420f81c378703ac8d431
+modified: 1628497603109
+created: 1628497046627
+url: "{{content}}/collections"
+name: collections pages
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628496977497.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

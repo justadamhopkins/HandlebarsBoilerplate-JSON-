@@ -1,0 +1,21 @@
+_id: req_aeb3163b8d204b59a7243603a799a66e
+type: Request
+parentId: fld_e8e370473e2b420f81c378703ac8d431
+modified: 1628497607908
+created: 1628497574170
+url: "{{content}}/collections/paint/rooms"
+name: collections page
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628497061043.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

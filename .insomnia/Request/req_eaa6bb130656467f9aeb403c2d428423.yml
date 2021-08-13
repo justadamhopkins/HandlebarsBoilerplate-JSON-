@@ -1,0 +1,21 @@
+_id: req_eaa6bb130656467f9aeb403c2d428423
+type: Request
+parentId: fld_f48a70199be7499499b9188a4b3e0ae6
+modified: 1628682423704
+created: 1628522567945
+url: "{{resource}}/site-settings"
+name: store site settings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628522567945
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

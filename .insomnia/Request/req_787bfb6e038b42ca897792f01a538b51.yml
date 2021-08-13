@@ -1,0 +1,21 @@
+_id: req_787bfb6e038b42ca897792f01a538b51
+type: Request
+parentId: fld_e8e370473e2b420f81c378703ac8d431
+modified: 1628497029748
+created: 1628497022502
+url: "{{content}}/help"
+name: help pages
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628497022502
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

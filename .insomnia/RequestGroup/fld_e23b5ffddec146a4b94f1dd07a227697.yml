@@ -1,0 +1,10 @@
+_id: fld_e23b5ffddec146a4b94f1dd07a227697
+type: RequestGroup
+parentId: wrk_3cb075736c7b4872ae8d7f214387e698
+modified: 1624956272194
+created: 1624956272194
+name: Shopify Admin Api
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1624956272194

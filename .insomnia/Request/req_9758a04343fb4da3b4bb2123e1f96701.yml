@@ -1,0 +1,21 @@
+_id: req_9758a04343fb4da3b4bb2123e1f96701
+type: Request
+parentId: fld_e8e370473e2b420f81c378703ac8d431
+modified: 1628497641839
+created: 1628497630762
+url: "{{content}}/pages/home"
+name: general page
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628496943744.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_96df566fc227472c8747a4d2a5b0c905
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1628505580142
+created: 1626809229648
+url: "{{resource}}/auth/customers/address/Z2lkOi8vc2hvcGlmeS9NYWlsaW5nQWRkcmVzc\
+  y82NjA2NzI2ODI0MDg5P21vZGVsX25hbWU9Q3VzdG9tZXJBZGRyZXNzJmN1c3RvbWVyX2FjY2Vzc1\
+  90b2tlbj10OHNScTBpOUhoMlRncDlpcTd6VDlsVkoteS00cGcxeFJZUHRUOE13VGJNcTloOUIweDd\
+  uZDd2OUVFYkhkT2JDbVB6QzdjUFV1RFg0SXVtV1BWSXlkVkk0T1otekVqWlhNQkZEMmxiaG10ZFRi\
+  dFpQVlNFYV82dTZWYlVoSEkxcmtUQzNjaVNkYVAwZWJsYTNuU3RjZFNNM0dEdi16X0FjZ2RrM09ta\
+  zViOHdQWHhpbjJMUlA0czJMXzFVWUVhLW1KT0R0YUVTdjY5dUxuaGNDMzMteTExYVFfUENta1NScT\
+  lhdzMtVXdGNG00aks2eGF0Y0VXbVE5RnJXVkI4LUFC"
+name: Delete Customer Address
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fbf03c3183f2497ab21df4b153bcd466
+  - id: pair_0f7945df30374478ba7d58002952daaa
+    name: x-lick-customerAccessToken
+    value: "{{customerAccessToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1626404271251
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

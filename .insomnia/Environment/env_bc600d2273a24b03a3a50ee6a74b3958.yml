@@ -1,0 +1,22 @@
+_id: env_bc600d2273a24b03a3a50ee6a74b3958
+type: Environment
+parentId: env_3ee1ba0c7bf519af78c2a4374cf6d81613d1675f
+modified: 1626867039898
+created: 1624960640052
+name: Shopify Lick Dev customer store
+data:
+  shopifyHost: https://lick-develop.myshopify.com
+  adminAccessToken: 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
+  adminApiBaseEndpoint: "{{shopifyHost}}/admin/api/2021-04"
+  storeFrontBaseEndpoint: "{{shopifyHost}}/api/2021-01"
+  storeFrontAccessToken: a7dfcd4c90a192b343323e4f5432e3c1
+dataPropertyOrder:
+  "&":
+    - shopifyHost
+    - adminAccessToken
+    - adminApiBaseEndpoint
+    - storeFrontBaseEndpoint
+    - storeFrontAccessToken
+color: null
+isPrivate: false
+metaSortKey: 1624960640052

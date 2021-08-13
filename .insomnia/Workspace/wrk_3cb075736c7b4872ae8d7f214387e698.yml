@@ -1,0 +1,8 @@
+_id: wrk_3cb075736c7b4872ae8d7f214387e698
+type: Workspace
+parentId: null
+modified: 1628499693316
+created: 1623675336820
+name: Insomnia
+description: A collection for all endpoints on the LICK rest API
+scope: design

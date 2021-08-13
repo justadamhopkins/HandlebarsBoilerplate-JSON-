@@ -1,0 +1,31 @@
+_id: req_4a7a26bcdc394db38fb18a4bc1c38e6b
+type: Request
+parentId: fld_e23b5ffddec146a4b94f1dd07a227697
+modified: 1628496755494
+created: 1624553391820
+url: "{{adminApiBaseEndpoint}}/graphql.json"
+name: GetProducts
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"  query {\n    shop {\n      name\n      primaryDomain
+    {\n        url\n        host\n      }\n    }\n  }"}'
+parameters: []
+headers:
+  - name: X-Shopify-Access-Token
+    value: "{{adminAccessToken}}"
+    description: ""
+    id: pair_9fc044e618124effa37b806986e5ddb4
+  - name: Content-Type
+    value: application/json
+    id: pair_bb282a952a0b468bb60b317eb8482f0f
+authentication: {}
+metaSortKey: -1624553391820
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,52 @@
+_id: req_63baf82c67354466b78bd7765209fc91
+type: Request
+parentId: fld_7fa81825330e40adb11485a5bb793510
+modified: 1628718781999
+created: 1624957210576
+url: "{{ _.storeFrontBaseEndpoint }}/graphql "
+name: GetProductsByCollection
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query collectionByHandleQuery($handle: String!, $first: Int!,
+    $firstVariants: Int!, $sortKey: ProductCollectionSortKeys)
+    {\n  collectionByHandle(handle: $handle)
+    {\n    id\n    handle\n    products(first: $first, sortKey: $sortKey)
+    {\n      edges {\n        paginationId: cursor\n        node
+    {\n          id\n          title\n          slug: handle\n          type:
+    productType\n          tags\n          isAvailableForSale:
+    availableForSale\n          variants(first: $firstVariants)
+    {\n            edges {\n              node
+    {\n                ...ProductVariant\n              }\n            }\n          }\n        }\n      }\n      pageInfo
+    {\n        hasNextPage\n        hasPreviousPage\n      }\n    }\n  }\n}\n\nfragment
+    ProductVariant on ProductVariant {\n  id\n  parentDetails: product
+    {\n    slug: handle\n  }\n  weight\n  weightUnit\n  title\n  originalPrice:
+    compareAtPriceV2 {\n    amount\n    currencyCode\n  }\n  price: priceV2
+    {\n    amount\n    currencyCode\n  }\n  isInStock:
+    availableForSale\n  stockCount:
+    quantityAvailable\n  requiresShipping\n  sku\n  details: selectedOptions
+    {\n    name\n    value\n  }\n}\n\nmutation
+    {\n  updatePassword\n}\n","variables":{"handle":"supplies","first":5,"firstVariants":5,"sortKey":"COLLECTION_DEFAULT"},"operationName":"collectionByHandleQuery"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0553d51f425d43878f043c30f10680d1
+  - name: X-Shopify-Storefront-Access-Token
+    value: "{{storeFrontAccessToken}}"
+    description: ""
+    id: pair_b975aebcee0b44b982a8fe926708dda6
+  - name: Accept
+    value: application/json
+    description: ""
+    id: pair_88325af5f1c5491186755bd09a2224e3
+authentication: {}
+metaSortKey: -1624957210576
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

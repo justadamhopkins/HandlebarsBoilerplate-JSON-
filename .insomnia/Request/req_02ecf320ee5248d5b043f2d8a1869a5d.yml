@@ -1,0 +1,36 @@
+_id: req_02ecf320ee5248d5b043f2d8a1869a5d
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1628505577510
+created: 1627036649648
+url: "{{resource}}/auth/customers/address/Z2lkOi8vc2hvcGlmeS9NYWlsaW5nQWRkcmVzc\
+  y82NjA4OTA5MTQwMTIxP21vZGVsX25hbWU9Q3VzdG9tZXJBZGRyZXNzJmN1c3RvbWVyX2FjY2Vzc1\
+  90b2tlbj1vYjNWSk1vUnFUVm13VktvWmc2aVcyaHctckxhcFI0ak1aMnp1Zk5BdmFCY0IxdXdDYkV\
+  PaTJjOUJteWNHRGFBaEozeEpPdVIwenVhclJYRnVvanh1SC1vakRtbHQ0Q2pKZ1NWNHEwSm96UGdm\
+  MThBR2pSV1ZCaHY2SEFNYjF0cElRUktEZTJuU2xEUzIxLURRMVVtZmwxVklVT05TbTltTGtoLXlLS\
+  zFlZG84c3hreDlocVN0eFRqMnFYbnE2UGFLMjBTTWJxRmJyVmJfVGk4QlVCak1tbDhwR0trNkoxNm\
+  NVa3FBN290VkJqaERhNGpHVnNaSVFVdmpqX3VKWWtR"
+name: Update default customer address
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96857220e9db453ab24cbb738b5c8e8d
+  - id: pair_97c1a97c4ca346a1b4a3bd5a88d8756d
+    name: x-lick-customerAccessToken
+    value: "{{customerAccessToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1626840525536
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

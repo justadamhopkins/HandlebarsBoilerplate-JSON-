@@ -1,0 +1,33 @@
+_id: req_3ff6160c98144b74a459644a04cdbc8a
+type: Request
+parentId: fld_e23b5ffddec146a4b94f1dd07a227697
+modified: 1628761455766
+created: 1628761440753
+url: "{{adminApiBaseEndpoint}}/graphql.json"
+name: Create Customer
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation customerCreate($input: CustomerInput!)
+    {\n  customerCreate(input: $input) {\n    customer
+    {\n      id\n    }\n    userErrors
+    {\n      field\n      message\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - name: X-Shopify-Access-Token
+    value: "{{adminAccessToken}}"
+    description: ""
+    id: pair_9fc044e618124effa37b806986e5ddb4
+  - name: Content-Type
+    value: application/json
+    id: pair_bb282a952a0b468bb60b317eb8482f0f
+authentication: {}
+metaSortKey: -1624553391770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

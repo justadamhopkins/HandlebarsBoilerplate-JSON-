@@ -1,0 +1,20 @@
+_id: env_65453779ecae45c88a56b595cbca7078
+type: Environment
+parentId: env_3ee1ba0c7bf519af78c2a4374cf6d81613d1675f
+modified: 1628505533780
+created: 1626448045144
+name: Prod Rest Api
+data:
+  baseUrl: https://rest-api.prod.lickhome.com/
+  resource: "{{baseUrl}}{{resourcePath}}"
+  content: "{{baseUrl}}{{contentPath}}"
+  customerAccessToken: 06c2a4ad130d8e7566edc6016ccad011
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - resource
+    - content
+    - customerAccessToken
+color: null
+isPrivate: false
+metaSortKey: 1626448045144

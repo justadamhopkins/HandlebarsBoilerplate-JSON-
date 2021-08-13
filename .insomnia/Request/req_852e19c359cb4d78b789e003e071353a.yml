@@ -1,0 +1,34 @@
+_id: req_852e19c359cb4d78b789e003e071353a
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1626773549821
+created: 1625654726383
+url: "{{ resource }}/auth/customers"
+name: Create customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "jon.doe@lickhome.com",
+    	"password": "test123",
+    	"firstName": "jone",
+    	"lastName": "doe",
+    	"phone": "+447888667142",
+    	"acceptsMarketing": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f14812af258345d6a67746ececd1ca40
+authentication: {}
+metaSortKey: -1625654726383
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

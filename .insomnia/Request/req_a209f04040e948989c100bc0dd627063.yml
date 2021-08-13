@@ -1,0 +1,29 @@
+_id: req_a209f04040e948989c100bc0dd627063
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1628505391247
+created: 1623939892238
+url: "{{ resource }}/auth/password/forgot"
+name: Forgot password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{email}}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_358524640da048409404d7d1c8e536f5
+authentication: {}
+metaSortKey: -1624956396573
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

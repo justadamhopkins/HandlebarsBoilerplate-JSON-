@@ -1,0 +1,21 @@
+_id: req_b6c8f850f3fd4204a0500c4be768ca90
+type: Request
+parentId: fld_bda4f4c18eb545ffb4cb6351a008aff5
+modified: 1626448099864
+created: 1625757050323
+url: "{{ resource }}/basket"
+name: Creat Basket
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1625757050323
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

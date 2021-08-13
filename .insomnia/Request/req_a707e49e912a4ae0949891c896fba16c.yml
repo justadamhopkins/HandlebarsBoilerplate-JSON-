@@ -1,0 +1,51 @@
+_id: req_a707e49e912a4ae0949891c896fba16c
+type: Request
+parentId: fld_c9822fd74845410cbe51696e0ba5dfec
+modified: 1628505568266
+created: 1626971433816
+url: "{{resource}}/auth/customers/address/Z2lkOi8vc2hvcGlmeS9NYWlsaW5nQWRkcmVzc\
+  y82NjA4Nzg5NDM4NjE3P21vZGVsX25hbWU9Q3VzdG9tZXJBZGRyZXNzJmN1c3RvbWVyX2FjY2Vzc1\
+  90b2tlbj1HZ0F1STFULVk4ZWRfSW9fWlRjUVhNWDA1TjZlRUhvY3JKTDZXSnQ4NkVTbm85cmpJVGg\
+  3Mkd3bmVLdVpXeGMzS1RwZEtVZWpHVmRHY3FhR0FWSy1RVXF3Rm51RS1zT0pvNWtUSmRlTXpkR2Zs\
+  TWxxTGVDXy1KSnVwREFSVmV0WFlhaWxsMWY5WWVuSXF1dmNQMTBZekhleUdxRFdmRml3eHpNaWhDb\
+  zNGenZENXJUWUpDVEJCSjRFNl9fZXBIOG5ZVVp0TVA2VTloajhMZURiWkljYWs2OEZVNnE5cnlLWk\
+  dVYm9ZWjlQQ0FST21hSDhfT0ZNYlYtWFJJeFpKZFd1"
+name: Update customer address
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"address1": "ccccccccccc",
+    	"address2": "0101010101",
+    	"city": "updated3",
+    	"company": "updated4",
+    	"country": "Germany",
+    	"province": "",
+    	"zip": "updated7",
+    	"firstName": "bbbbbb updated",
+    	"lastName": "Doe updated"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96857220e9db453ab24cbb738b5c8e8d
+  - id: pair_97c1a97c4ca346a1b4a3bd5a88d8756d
+    name: x-lick-customerAccessToken
+    value: "{{customerAccessToken}}"
+    description: ""
+  - id: pair_ab029b41c71745e4a576fba0df4170e2
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1626971433816
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

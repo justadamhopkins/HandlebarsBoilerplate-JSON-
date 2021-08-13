@@ -1,0 +1,30 @@
+_id: req_44ef396ec7f544c3a9b1c5cff9010a45
+type: Request
+parentId: fld_f48a70199be7499499b9188a4b3e0ae6
+modified: 1628499477092
+created: 1628499318432
+url: "{{resource}}/notify-me"
+name: Notify me
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "adam.hopkins@lickhome.com",
+    	"variant": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zOTI4NDYyMzI0NTM2Ng=="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_815a3236f3fe45a1bfc72df13b6b4e0b
+authentication: {}
+metaSortKey: -1628499318432
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

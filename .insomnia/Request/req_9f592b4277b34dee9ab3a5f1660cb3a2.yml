@@ -1,0 +1,21 @@
+_id: req_9f592b4277b34dee9ab3a5f1660cb3a2
+type: Request
+parentId: fld_f48a70199be7499499b9188a4b3e0ae6
+modified: 1628499129595
+created: 1628094048426
+url: "{{resource}}/features"
+name: Feature flags
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628498784595
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

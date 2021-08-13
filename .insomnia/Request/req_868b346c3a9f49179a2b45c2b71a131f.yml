@@ -1,0 +1,21 @@
+_id: req_868b346c3a9f49179a2b45c2b71a131f
+type: Request
+parentId: fld_e8e370473e2b420f81c378703ac8d431
+modified: 1628498321348
+created: 1628498227654
+url: "{{content}}/product-listing/paint/colour/grey?sortKey=default"
+name: product listings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627688986526
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

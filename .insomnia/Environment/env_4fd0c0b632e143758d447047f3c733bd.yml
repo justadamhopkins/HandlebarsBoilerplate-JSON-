@@ -1,0 +1,20 @@
+_id: env_4fd0c0b632e143758d447047f3c733bd
+type: Environment
+parentId: env_3ee1ba0c7bf519af78c2a4374cf6d81613d1675f
+modified: 1628505542441
+created: 1628498431762
+name: Develop Rest Api
+data:
+  baseUrl: https://rest-api.develop.lickhome.com/
+  resource: "{{baseUrl}}{{resourcePath}}"
+  content: "{{baseUrl}}{{contentPath}}"
+  customerAccessToken: 06c2a4ad130d8e7566edc6016ccad011
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - resource
+    - content
+    - customerAccessToken
+color: null
+isPrivate: false
+metaSortKey: 1628498431762
